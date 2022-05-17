@@ -1,0 +1,571 @@
+<html>
+	<!--head tags-->
+	<head>
+		<meta charset = "UTF-8">
+	</head>
+	
+	<body>
+	
+			<h1>Title of this artivle</h1>
+			<h2>Subtitle thats usually smaller than this</h2> 
+			
+			<!--Bold and Italic tags-->
+			<!-- "<i>" tag - visual - only italics And "<em>" tags used for emphasizing-->
+			
+			<p>My <em>favourite</em> charavter from <i>Sesame Street </i> is Grover</p>
+			
+			<!-- in bold, "<strong>" tag indicates more seriouness "<b>" tag indicates...just bold visually -->
+			
+			<p><strong>Warning!</strong> Do not be late.</p>
+			
+			<p><b>chocolate and coffee</b> and other things I crave</p>
+			
+			<!-- Lists-->
+			<!-- 1) Unoredered lists - "<ul>" -->
+			
+			<ul>
+				<li>flour</li>
+				<li>sugar</li>
+				<li>salt</li>
+				<li>apple cider vinegar</li>
+				<li>vanilla</li>
+			</ul>
+			
+			<!--2) Ordered lists -"ol" -->
+			
+			<ol>
+				<li>flour</li>
+				<li>sugar</li>
+				<li>salt</li>
+				<li>apple cider vinegar</li>
+				<li>vanilla</li>
+			</ol>
+			
+			<!-- 3)Definition Lists "<dl> , "<dt>" and "<dd>" tags-used to create descriptions -->
+			
+			<dl>
+				<dt>Dialogue</dt>
+				<dd>hey how are you</dd>
+				<dd>where do you live currently</dd>
+			</dl>
+			
+			
+			<!-- Representing Quotes - cite and block quote-->
+			<!-- If there is a quote wothin the paragraph, we can use "<q>" tags and
+			we can mention language also-->
+			<!-- <q> is also an inline html element ..inline means wrapping in the
+			middle of a block or phrases of text -->
+			<blockquote>
+				<p>Hypertext Markup Language (HTML) is the foundation of website and 
+				web application development. <q>It allows you to ensure that your content 
+				is understood by both segments of your audience:</q> the people who watch, 
+				read, or listen to your content, and the computers that display it. 
+				In this course, learn how to craft excellent HTML with the pieces 
+				that HTML itself has to offer. Instructor Jen Simmons highlights 
+				all of the fundamental concepts you need to use HTML thoughtfully. 
+				She focuses on semantic markup: tagging content as what it is, and 
+				not just for formatting, convention, or convenience.</p>
+				
+				<p lang = "fr" >Hypertext Markup Language (HTML) is the foundation of website and 
+				web application development. <q>It allows you to ensure that your content 
+				is understood by both segments of your audience:</q> the people who watch, 
+				read, or listen to your content, and the computers that display it. 
+				In this course, learn how to craft excellent HTML with the pieces 
+				that HTML itself has to offer. Instructor Jen Simmons highlights 
+				all of the fundamental concepts you need to use HTML thoughtfully. 
+				She focuses on semantic markup: tagging content as what it is, and 
+				not just for formatting, convention, or convenience.
+				
+				<p lang = "bg" >Hypertext Markup Language (HTML) is the foundation of website and 
+				web application development. <q>It allows you to ensure that your content 
+				is understood by both segments of your audience:</q> the people who watch, 
+				read, or listen to your content, and the computers that display it. 
+				In this course, learn how to craft excellent HTML with the pieces 
+				that HTML itself has to offer. Instructor Jen Simmons highlights 
+				all of the fundamental concepts you need to use HTML thoughtfully. 
+				She focuses on semantic markup: tagging content as what it is, and 
+				not just for formatting, convention, or convenience.
+				
+				<cite> --Some Author </cite>
+			</blockquote>
+			
+			<!--Dates And Times and intro to attribute-->
+			<!--syntax -> <element name attribute name = "" > -->
+			<!--Machine format -> YYYY-MM-DD -->
+			<time datetime = "2025-05-08"> May 8, 2025</time>
+			<br>
+			<time datetime = "07:00"> 7:00 am </time>
+			<br>
+			<time datetime = "2020-11-04T19:00">
+				Wednesday, Nov 4th at 7pm</time>
+				
+			<!-- "code tag" --<code></code> - This can be used to display html elements
+			as text -->
+			
+			<p> we can write <code>{color:green;}</code> in our css, and it will
+			apply to anything marked up as an <code> <H4> </code> element .
+			</p>
+			
+			<p> we can write <code>{color:green;}</code> in our css, and it will
+			apply to anything marked up as an <code> &lt;H4&gt;</code> element .
+			</p>
+			
+			
+			<!--br and pre tags --"<br>" and "<pre>"-->
+			<h1> br nor pre used</h1>
+			hii 
+			hello
+			how are you
+			favourite food
+			favourite color</p>
+			
+			<h1>using "br" tag</h1>
+			hii<br>
+			hello<br>
+			how are you<br>
+			favourite food<br>
+			favourite color</p>
+			
+			<h1>using "pre" tag</h1>
+			<pre>
+			hii 
+			hello
+			how are you
+			favourite food
+			favourite color
+			</pre>
+			
+			<!-- Combining pre and code tag -->
+			
+			<pre>
+			<code>
+			&lt;ul&gt;
+			&lt;ul&gt;flour&lt;ul&gt;
+			&lt;ul&gt;sugar&lt;ul&gt;
+			&lt;ul&gt;salt&lt;ul&gt;
+			&lt;ul&gt;
+			
+			ul {
+				color: blue;
+			}
+			li {
+				list-style-type:square;
+			}
+			</code>
+			</pre>
+			
+			<!--subscripts and superscripts-->
+			<!-- copy right symbol - "alt+0169" -->
+			
+			<h2>Before using <code>"&lt;sub&gt;" and "&lt;sup&gt;"</code> tags</h2>
+			 <p>H2O/p>
+			 
+			 <p>five.2<p>
+			 
+			 <p>© 2019 Fancy Company </p>
+			 
+			 
+			<h2>After using <code> "&lt;sub&gt;" and "&lt;sup&gt;" </code> tags</h2>
+			  <p>H<sub>2</sub>O/p>
+			 
+			  <p>five.<sup>2</sup></p>
+			 
+			  <p>© 2019 Fancy Company </p>
+			  
+			<!-- "<small> "tag - to markup something that has a very little prominence-->
+			
+			  <p>H<sub>2</sub>O/p>
+			 
+			  <p>five.<sup>2</sup></p>
+			 
+			  <small>© 2019 Fancy Company </small>
+			  
+			 
+			 <!-- "<Article> " tag -->
+			 
+			 <h1>The article element</h1>
+
+				<article>
+				  <h2>Google Chrome</h2>
+				  <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+				</article>
+
+				<article>
+				  <h2>Mozilla Firefox</h2>
+				  <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+				</article>
+
+				<article>
+				  <h2>Microsoft Edge</h2>
+				  <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+				</article>
+
+				<!-- attributes -->
+				<h2>Commonly Used Global Attributes</h2>
+				<h3>1)class attribute</h3>
+				<p class = "intro">
+					This is an introduction.
+				</p>
+				
+				<h3>2)id attribute</h3>
+				<p class = "intro" id = "lalala">
+					This is an introduction.
+				</p>
+				
+				<h3>3)contenteditable attribute</h3>
+				<blockquote contenteditable="true">
+				Edit this content.
+				</blockquote>
+				
+				<h3>4)lang attribute</h3>
+				<p lang="en-GB">
+				Hello world.
+				</p>
+				
+				<p lang="fr">
+				Ce est defini.
+				</p>
+				<!-- dir stands for direction...here ltr means ...text flows from left to
+				right-->
+				<p dir="ltr">
+				flows from left to right.
+				</p>
+				
+				<!-- non-breaking space - "&nbsp;" -->
+				<h3> using "nbsp" </h3>
+				
+				<p> Here is a sentence that will break between every word, including between
+					jen&nbsp;Simmons.</p>
+					
+				<p> Here is a sentence that will break between every word, including between
+					jen&nbsp;
+					Simmons.</p>
+				<p> Here is a sentence that will break between every word, including between
+					jen &nbsp; &nbsp; Simmons.</p>
+				 
+				<!--Links -- connects pages / redirects to another site "href" tag is used-->
+				<h3>Absolute Link</h3>
+				<a href = "https://www.javatpoint.com/html-tutorial">Absolute</a>
+				<br>
+				<h3>Relative Links</h3>
+				<a href = "C:\Users\hp\Desktop\KLU\FrontEnd\HTML\f1.html"> Relative</a>
+				
+				<!-- Menu/ Navigation bar -->
+				<!-- we can use ARIA attribute too-->
+				<h3>Navbar</h3>
+				
+				<nav>
+					<ul class = "navbar">
+						<li><a href = /Home>Home</a></li>
+						<li><a href = /People>People</a></li>
+						<li><a href = /About>About</a></li>
+						<li><a href = /Contact>Contact</a></li>
+					</ul>
+				</nav>
+				
+				<h3>Navbar</h3>
+				
+				<nav role = "navigation" aria-label="Main-Menu"><!--label can be of our wish-->
+					<ul class = "navbar">
+						<li><a href = /Home>Home</a></li>
+						<li><a href = /People>People</a></li>
+						<li><a href = /About>About</a></li>
+						<li><a href = /Contact>Contact</a></li>
+					</ul>
+				</nav>
+				
+				<h3>Footer</h3>
+				<footer>
+					<a href = "/about/privacy">Privacy ploicy</a>&nbsp;&nbsp;
+					<a href = "/about/legal">Terms of service</a>
+				</footer>
+				
+				<!--images-->
+				<!-- contains  attributes-"src", "alt", "width" and "height"-->
+				
+				<h2>Image</h2>
+				<!--different sizes - "srcset" tag -->
+				<h3>Different Sizes</h3> 
+				<img src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg" 
+				  width = "400" height = "300" alt = "Dog Image"
+				  
+				  srcset = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg 2x,
+							https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg 3x,
+							https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg 4x"
+				
+				  
+				  sizes = "(max-width: 480px) 240px,
+						   (max-width: 960px) 480px,
+						   (max-width: 480px) 960px,
+						   1920px"
+				>
+				 <!-- sizes and srcset are not supported by most of the browsers ..so instead 
+				 of that we an use the picture tag-->
+				 <!-- picture element crops / increses size depending upon the requirement-->
+				 <!--<figcaption>  tag allows us to caption text  and <figure> tag allows us 
+			to capture caption along with image that gives more clear idea about the picture-->
+				<figure>
+					<picture>
+						  <source media="(min-width: 650px)" srcset="https://www.w3schools.com/tags/img_pink_flowers.jpg">
+						  <source media="(min-width: 465px)" srcset="https://www.w3schools.com/tags/img_white_flower.jpg">
+						  <img src="https://www.w3schools.com/tags/img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+					</picture>
+					
+					<picture>
+						  <source media="(min-width: 600px)" 
+							srcset="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog2-720.jpg">
+						  <source srcset="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog2-cropped-320.jpg">
+						  <img src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog2-480.jpg"
+									width = "480" height="360">
+					</picture>
+					<figcaption>Maggie the dog enjoys resting in a field, after a long day of 
+						chasing squirrels</figcaption>
+				</figure>
+					
+				<!--"<Audio> tag -->
+				<h3>One time play</h3>
+				
+				<audio controls >
+					<source src = "C:\Users\hp\Downloads\[MP3DOWNLOAD.TO] Ed Sheeran - Perfect (Official Music Video)-320k.mp3">
+				</audio>
+				
+				<!-- we can use  " loop " to play it in loop-->
+				<h3>loop</h3>
+				
+				<audio controls src = "C:\Users\hp\Downloads\[MP3DOWNLOAD.TO] Ed Sheeran - Perfect (Official Music Video)-320k.mp3" loop>
+				</audio>
+				
+				<!-- "autoplay" automatically loads and plays the audio as soon as the web page loads 
+					works only in some browsers-->
+					
+				<h3>Autoplay</h3>
+				<audio controls src = "C:\Users\hp\Downloads\[MP3DOWNLOAD.TO] Ed Sheeran - Perfect (Official Music Video)-320k.mp3" loop autoplay>
+				</audio>
+				
+				<!-- "source" can be used when we want to place multiple audio files or files of
+				different formats-->
+				
+				<h3>Autoplay</h3>
+				<audio controls loop autoplay >
+					<source src= "perfect.mp3"  type = "audio/mp3;">
+					<p>sorry! your browser doesn't support autoplay.</p>
+				</audio>
+				
+				<!-- "video" -->
+				<
+				<br>
+				<br>
+				<br>
+				<video controls>
+					<source src = "Vid1.mp4" type = "video/mp4">
+				</video>
+				
+				<!--Subtitles and captions -->
+				<h3>subtitles</h3>
+				<!--not working-->
+				<video controls>
+					<source src = "Vid1.mp4" type = "video/mp4">
+					<track src = "Vid1.vtt" 
+						kind = "captions"
+						label="english"
+						srclang="en"
+						default>
+					<p>This could be a video of people utilizing the benifits of excercise,
+					creating awareness about the importance of working out</p>
+					
+				</video>
+				<!-- we can also use kind = "descriptions" and label = "Descriptions"
+				and track src = "description.en.vtt" -->
+				<!-- "chapters " can also be used-->
+				<h3> Embedding the video from other site</h3>
+				
+				
+				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NJiAJShGD3Q" 
+				title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+				clipboard-write; encrypted-media; gyroscope; 
+				picture-in-picture" allowfullscreen></iframe>
+				
+				
+				<!--"lang attribute" and "dir" attribute-->
+				
+				<p lang="es-mx" dir="ltr">
+					En 1918, Emiliano Zapata hizo la siguiente declaracion en nahuatl:
+					<span lang = "nah"> An Altepeme de non cate itech nin tlalpan de 
+					netehuiloya den tlanahuatiani Arenas.</span>
+				</p>
+				
+				
+				<!--"div" and "span"-->
+				<h2> div and span </h2>
+				<article lang = "en">
+					<h1>This is the headline.</h1>
+					<div class = "box">
+						<p>The first paragraph.</p>
+						<p>Some text in a second paragraph.</p>
+						<p>Third paragraph.<span lang="es" class = "bilingual"> Esta oracion esta 
+							en espanol.</span> Some of this text is in another language.</p>
+						<p>Fourth paragraph.</p>
+					</div>
+				</article>
+
+				<h2>FORM DEMO - WORKING</h2>
+				<form action = "www.kluniversity.in" method = "get">
+						<label>Name</label>
+						<input name = "name">
+						<label>Email</label>
+						<input name = "email" type = "email" placeholder="doe@example.com">
+						<button>sign up</button>
+						
+				</form>
+				<!-- "required" makes the email field compulsory to fill out and "placeholder"
+				attribute allows us to suggest the suitable text that needs to be entered.-->
+				
+				<!-- "value" attribute helps when we need to include data in the form.
+				..correct data-->
+				
+				<!--METHOD 2 -->
+				<h2>method2-submit not working</h2>
+				
+				
+				<form id = "form1"  action="action.html">
+					<label for = "name">Name</label>
+					<input name = "name" id = "name">
+					<br><br>
+					<label for = "email">Email</label>
+					<input name = "email" id = "email" type = "email">
+					<br><br>
+					<label>Search</label>
+					<input name = "search" type = "search" placeholder="#####">
+					<br><br>
+					<label>Password</label>
+					<input name = "password" type = "password" placeholder="********">
+					<br><br>
+					<label>Text Area</label>
+					<textarea id = "textarea" name = "textarea" 
+					cols="30" rows = "15"> </textarea>
+					<br><br>
+					<label>Date</label>
+					<input name = "date" type = "date" placeholder="DD/MM/YYYY">
+					<br><br>
+					<label>Color</label>
+					<input name = "color" type = "color" placeholder="yellow">
+					<br><br>
+					<label>File</label>
+					<input name = "file" type = "file" accepts="image/*" multiple>
+					<br><br>
+					<label>Checkbox</label>
+					<input id = "checkbox" name = "simplecheckbox" 
+					value="The checkbox is checked " type = "checkbox" checked>
+					<br><br>
+					<label>selectlist</label>
+					<select id = "selectlist" name = "selectlist">
+						<option>First Option</option>
+						<option>Second Option</option>
+						<option>Third Option</option>
+					</select>
+					<br><br>
+					<fieldset>
+						<legend>Checkboxes in a fieldset</legend>
+						<input id = "thischeck" name="checkboxlist"
+						type="checkbox" value="This" checked>
+						<label>This</label>
+						<br><br>
+						<input id ="orcheck" name = "checkboxlist"
+						type="checkbox" value="And Or">
+						<label>And/or</label>
+						<br><br>
+						<input id = "thatcheck" name="checkboxlist"
+						type="checkbox" value="That">
+						<label>That</label>
+					</fieldset>
+					
+					<fieldset>
+						<legend>Radio buttons in a field set</legend>
+						<input id = "thisradio" name="radiobutton"
+						type="radio" value="This" checked>
+						<label>This</label>
+						<br><br>
+						<input id ="orradio" name = "radiobutton"
+						type="radio" value="Or">
+						<label>or</label>
+						<br><br>
+						<input id = "orradio" name="radiobutton"
+						type="radio" value="or">
+						<label>None</label>
+					</fieldset>
+					<br><br>
+					<button> sign up </button>
+				</form>
+				
+				<!--submit button is not working-->
+				
+				
+				<h2>Working Method </h2>
+				
+				
+				<form id="myForm" action="/action_page.php">
+					  First name: <input type="text" name="fname"><br>
+					  Last name: <input type="text" name="lname"><br><br>
+					  <input type="button" onclick="myFunction()" value="Submit form">
+				</form>
+
+				
+				<!-- but in the output page, the data won't be printed ..this is because
+					the input fields don't have what they need to report the data that's 
+					been entered into the form , for that we need to add an attribute to 
+					the inout called " name " attribute.-->
+				<!-- here , for an action to happen , we can redirect to other page 
+				using action attribute, and using get attribute ..but get is not secure-->
+				<!-- 
+					ex: <form action = "success.html" method = "get">
+				-->
+				
+				<!-- we don't have to include "type" attribute for name if we don't want to.
+				because the browser anyhow thinks type = "text" as default.-->
+				
+				
+				<table>
+					<tr>
+						<th><b>COUNTRY</b></th>
+						<th><b>FRUIT</b></th>
+						<th><b>COLOR</b></th>
+					</tr>
+					<tr>
+						<td>India</td>
+						<td>Watermelon</td>
+						<td>White</td>
+					</tr>
+						
+					<tr>
+						<td>Nepal</td>
+						<td>Pineapple</td>
+						<td>Red</td>
+					</tr>
+					
+					<tr>
+						<td>Bangladesh</td>
+						<td>Grapes</td>
+						<td>Pink</td>
+					</tr>
+					<tr>
+						<td>Butan</td>
+						<td>Orange</td>
+						<td>Blue</td>
+					</tr>
+					<tr>
+						<td> China</td> 
+						<td>Apple</td>
+						<td>Yellow</td>
+					</tr>
+				</table>
+					
+					
+					
+					
+				
+		 
+	</body>
+		
+		
+		
+</html>
